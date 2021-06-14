@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 5px;
+}
+/* Nav top-header */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #818181;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+nav h1{
+    color: black;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-left: 400px;
+    margin-top: 3px;
+}
+nav .onglets a{
+    padding-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: #915491
+}
+nav a:focus{
+    color: #215975;
+}
+#search{
+    padding: 5px;
+    border: 2px solid #818181;
+    border-radius: 50px;
+    outline: none;
+    width: 30px;
+    padding-left: 20px;
+    background: url(assets/icones/loupe.png) right no-repeat;
+    transition: width 2s;
+    float: right;
+    padding-bottom: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+#search:hover{
+    width: 200px;
+    background-color: white;
+    height: 26px;
+}
+.shop{
+    margin-right: 10px;
+}
+header{
+   display: flex;
+   flex-direction: column;
+   margin-left: 250px; 
+   margin-top: 60px;
+}
+@media screen and (max-width:682px) {
+    nav .onglets{
+        margin-left: 0px;
+    }
+    
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.choix{
+    margin-top: 3px;
+}
+.choix a{
+    padding-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+}
+/* Card */
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    
+}
+.content .card{
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px black;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+}
+.card h2{
+    text-align: center;
+}
+.Achat{
+    padding-bottom: 10px;
+}
+.Achat a{
+    text-decoration: none;
+    color: rgb(182, 196, 133);
+}
+.Achat img{
+   width: 300px;
+   border-radius: 20px 20px 0px 0px;
+}
+
+
+/* Slide */
+
+#carouselExampleCaptions img{
+    width: 1920px;
+    height: 690px;
+}
+              /* API */
+#counter{
+    font-size: 5em;
+    margin: 0;
+    filter: blur(6px);
+}   
+
+                    /* BLOG */
+
+ .blogs img{
+     width: 500px;
+     height: 500px;
+     margin-right: 20px;
+     margin-bottom: 20px;
+ }
+ .blogs{
+     display: flex;
+ }
+ .blogs section{
+     float: left;
+ }
+ .blogs aside{
+     float: right;
+     margin-top: 90px;
+ }
+/* Pied de la page */
+
+.footer{
+    background-color: #24262b;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+footer .container{
+   max-width: 1170px;
+   margin: auto;
+}
+footer h2{
+    color:#818181;
+}
+footer ul{
+    list-style-type: none;
+}
+footer li{
+    margin-bottom: 15px;
+}
+footer a{
+    text-decoration: none; 
+}
+.footer-col{
+    width: 25%;
+    align-items: center;
+    border-bottom: 3px solid #818181;
+}
+.footer-col img{
+    margin-bottom: 2px;
+}
+.footer-col a{
+    margin:0px;
+    padding: 0px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 300px;
+    display: block;
+    color: #bbbbbb;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 20px;
+}
+.footer-col .after-footer li{
+      display: inline-flex;
+}
+.footer p{
+    color: #818181;
+    font-size: 20px;
+}
+.row-cols-lg-4{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Les modifications d'image*/
+
+.main .icon{
+    align-items: center;
+    text-align: center;  
+}
+.main .icon img{
+    margin-right: 25px;
+    margin-left: 15px;
+}
+.main .card a{
+    transition: all 1.5s ease;
+}
+.main .card a:hover{
+    margin: 5px 5px 5px 5px;
+}

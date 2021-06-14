@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: #818181;
+}
+
+                     /* INSCRIPTION */
+h2{
+    text-align: center;
+}
+.FormInscrs{
+    width: 450px;
+    height: 680px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    border-radius: 10px;
+    border-top: 5px solid #46cb49;
+    border-bottom: 5px solid #46cb49;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.4);
+}
+.form-text{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.form-saisie span{
+    width: 100%;
+    font-size: 16px;  
+}
+p{
+    text-align: center;
+    margin-bottom: 0;
+}
+.form-saisie input{
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+    background-color: #1f1f22;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.form-saisie input[type="submit"].btnInscris{
+    width: 100%;
+    font-size: 18px;
+    background-color: #46cb49;
+    color: #fff;
+    margin: 20px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.form-saisie input[type="submit"].btnInscris:hover{
+    background-color: #24b124;
+    color: #d6dfd8;
+}
+.form-saisie a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #1d4adb;
+}
+.form-saisie p{
+    text-align: center;
+}
+
+
+              /* CONNEXION */
+              *{
+                box-sizing: border-box;
+            }
+            body1{
+                margin: 0;
+                padding: 0;
+                font-size: 16px;
+                color: #fff;
+                background-color: #818181;
+            }
+            body1 h2{
+                text-align: center;
+                margin-top: 160px;
+            }
+            .Formconnexion{
+                width: 450px;
+                height: 420px;
+                border: 1px solid black;
+                background-color: rgba(0, 0, 0, 0.5);
+                position: absolute;
+                margin: auto;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding: 30px;
+                border-radius: 10px;
+                border-top: 5px solid #064ee9;
+                border-bottom: 5px solid #064ee9;
+                box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.4);
+            }
+            .form-text1{
+                font-size: 32px;
+                font-weight: 600;
+                text-align: center;
+                padding-bottom: 30px;
+                margin-top: 20px;
+            }
+            .form-saisie1 span{
+                width: 100%;
+                font-size: 16px;  
+                margin-top: 0;
+            }
+            p{
+                text-align: center;
+                margin-bottom: 0;
+            }
+            .form-saisie1 input{
+                width: 100%;
+                font-size: 16px;
+                outline: none;
+                text-align: center;
+                background-color: #1f1f22;
+                color: #fff;
+                padding: 10px;
+                border: 1px solid #fff;
+                border-radius: 20px;
+            }
+            .form-saisie1 input[type="submit"].btnInscris{
+                width: 100%;
+                font-size: 18px;
+                background-color: #3c6ad0;
+                color: #fff;
+                margin: 20px 0;
+                padding: 10px;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                margin-bottom: 5px;
+            }
+            .form-saisie1 input[type="submit"].btnInscris:hover{
+                background-color: #064ee9;
+                color: #d6dfd8;
+            }
+            .form-saisie1 a{
+                font-size: 14px;
+                font-weight: bold;
+                color: #1d4adb;
+            }
+            .form-saisie1 p{
+                text-align: center;
+            }
